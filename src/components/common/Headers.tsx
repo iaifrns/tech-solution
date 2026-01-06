@@ -19,7 +19,7 @@ function Headers() {
           <div className="flex w-1/4 justify-center items-center">
             <img className="w-30" src={logo} alt="" />
           </div>
-          <div className="w-1/2 hidden md:flex justify-center gap-4 font-semibold items-center">
+          <div className="w-[58%] hidden md:flex justify-center gap-4 font-semibold items-center">
             {NavLink.map((link, i) => (
               <button
                 key={link.name}

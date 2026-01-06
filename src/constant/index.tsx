@@ -186,37 +186,37 @@ const about: aboutType[] = [
     id: 1,
     title: "Notre Mission",
     description:
-      "To provide photographers with stunning, functional websites that showcase their work and help them grow their business.",
+      "Accompagner nos clients dans leur transformation digitale en proposant des solutions informatiques fiables, sécurisées et adaptées à leurs besoins.",
   },
   {
     id: 2,
     title: "Notre Vision",
     description:
-      "To be the leading provider of website solutions for photographers worldwide.",
+      "Devenir un partenaire technologique de référence en offrant des solutions innovantes qui créent de la valeur durable pour les entreprises.",
   },
   {
     id: 3,
     title: "Nos Valeurs",
     description:
-      "Creativity, Quality, Customer Satisfaction, Innovation, Integrity.",
+      "Innovation, fiabilité et engagement guident chacune de nos actions afin de garantir des services de qualité et une relation de confiance.",
   },
   {
     id: 4,
     title: "Notre Équipe",
     description:
-      "A diverse group of web designers, developers, and marketing experts passionate about photography and technology.",
+      "Une équipe de professionnels passionnés, combinant expertise technique et sens du service pour assurer la réussite de chaque projet.",
   },
   {
     id: 5,
     title: "Notre Histoire",
     description:
-      "Founded in 2020, we have quickly grown to serve hundreds of photographers globally with our tailored website solutions.",
+      "Depuis 2015, nous accompagnons nos clients dans leur transformation digitale avec des solutions innovantes et performantes.",
   },
   {
     id: 6,
     title: "Pourquoi Nous Choisir ?",
     description:
-      "We understand the unique needs of photographers and offer personalized service, cutting-edge design, and ongoing support to help you succeed online.",
+      "Parce que nous allions expertise, réactivité et solutions sur mesure pour accompagner efficacement votre croissance digitale.",
   },
 ];
 
@@ -295,9 +295,9 @@ const ask: askType[] = [
 ];
 
 const NavLink = [
-  { name: "Home", href: "/" },
+  { name: "Accueil", href: "/" },
   { name: "Services", href: "/services" },
-  { name: "About", href: "/about" },
+  { name: "À-propos", href: "/about" },
   { name: "Contact", href: "/contact" },
 ];
 

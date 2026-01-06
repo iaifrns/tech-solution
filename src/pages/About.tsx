@@ -1,9 +1,8 @@
+import servi from '@/assets/servi.jpeg';
 import ScrollAnimation from '@/components/common/ScrollAnimation';
-import Title from '@/components/ui/Title'
-import { about } from '@/constant'
-import { useState } from 'react'
-import clavier1 from '@/assets/clavier1.jpeg'
-import servi from '@/assets/servi.jpeg'
+import Title from '@/components/ui/Title';
+import { about } from '@/constant';
+import { useState } from 'react';
 
 function About() {
 
@@ -14,7 +13,7 @@ function About() {
     return (
         <ScrollAnimation>
             <div id="about" className='flex flex-col justify-center items-center gap-15 my-10 w-full'>
-                <Title h1="A-Propos" h2="We are a team of passionate designers and developers dedicated to creating beautiful and functional websites." />
+                <Title h1="A-Propos" h2="Nous sommes une entreprise spécialisée dans les solutions informatiques, accompagnant les organisations dans leur transformation digitale" />
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-15 w-4/5'>
                     <div>
                         {about.map((item) => (

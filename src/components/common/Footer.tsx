@@ -79,7 +79,7 @@ function Footer() {
       </div>
       <div className="w-full px-10">
         <p className="text-white  pt-10">
-          © 2025 <b className="underline">PhotoWebDesigns.</b> All rights
+          © 2015 <b className="underline">Tech-Solution.</b> All rights
           reserved.
         </p>
       </div>

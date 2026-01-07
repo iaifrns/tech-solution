@@ -1,5 +1,6 @@
 import { NavLink } from "@/constant";
 import logo from "@/assets/logotech.png";
+import { email } from "@/constant/generalInfos";
 
 function Footer() {
   const handleScroll = (id: number) => {
@@ -68,7 +69,7 @@ function Footer() {
           <div className="w-full lg:w-1/3 flex flex-col gap-5  py-10 lg:py-0 border-b-2 lg:border-b-0 border-gray-400">
             <h3 className="text-white font-bold mb-4">Contact Us</h3>
             <ul className="text-gray-300">
-              <li className="mb-2">Email: info@photowebdesigns.com</li>
+              <li className="mb-2">Email: {email}</li>
               <li className="mb-2">Phone: +1 (555) 123-4567</li>
               <li className="mb-2">
                 Address: 123 Design Street, Creative City, CC 12345

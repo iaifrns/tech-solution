@@ -1,4 +1,4 @@
 const phone = "123-456-7890";
-const email = "douan@example.com";
+const email = "contact@tech-solution-sa.com";
 
 export { phone, email };

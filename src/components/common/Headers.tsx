@@ -1,7 +1,7 @@
 import logo from "@/assets/logotech.png";
 import { NavLink } from "@/constant";
 import { handleScroll } from "@/helper/navigate";
-import { Menu, MessageCircle, X } from "lucide-react";
+import { Menu, PhoneCall, X } from "lucide-react";
 import { useState } from "react";
 
 function Headers() {
@@ -39,8 +39,8 @@ function Headers() {
             </button>
           </div>
           <div className="flex lg:w-1/4 justify-center items-center">
-            <button className="flex justify-center items-center gap-2 rounded-full px-4 py-3 bg-green-800 hover:bg-green-700 transition-colors">
-              <MessageCircle size={18} color="white" />
+            <button className="flex justify-center items-center gap-2 rounded-full px-4 py-3 bg-primary hover:bg-primary/85 transition-colors">
+              <PhoneCall size={20} color="white" />
               <p className="font-semibold hidden lg:flex text-white">
                 Contactez-Nous
               </p>

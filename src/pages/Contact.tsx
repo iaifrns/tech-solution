@@ -1,10 +1,11 @@
 import FormContact from '@/components/common/FormContact'
 import ScrollAnimation from '@/components/common/ScrollAnimation'
+import { email } from '@/constant/generalInfos'
 import { Mail } from 'lucide-react'
-import { useLocation } from 'react-router-dom'
+/* import { useLocation } from 'react-router-dom' */
 
 function Contact() {
-    const location = useLocation();
+    /* const location = useLocation(); */
 
     return (
         <ScrollAnimation>
@@ -18,7 +19,7 @@ function Contact() {
                         <div className='w-full flex justify-between rounded-xl bg-white p-5'>
                             <div className='flex flex-col justify-center'>
                                 <p className='text-gray-300'>Email</p>
-                                <p className='font-semibold xl:text-xl 2xl:text-2xl'>info@photowebdesigns.com</p>
+                                <p className='font-semibold xl:text-xl 2xl:text-2xl'>{email}</p>
                             </div>
                             <div className='bg-gray-200 p-5 rounded-2xl'>
                                 <Mail />
@@ -27,7 +28,7 @@ function Contact() {
                         <div className='w-full flex justify-between rounded-xl border-2 border-gray-500 p-5'>
                             <div className='flex flex-col justify-center'>
                                 <p className='text-gray-300'>Email</p>
-                                <p className='font-semibold xl:text-xl 2xl:text-2xl'>info@photowebdesigns.com</p>
+                                <p className='font-semibold xl:text-xl 2xl:text-2xl'>{email}</p>
                             </div>
                             <div className='bg-gray-200 p-1 rounded-2xl'>
                                 <img className='w-15 h-15 rounded-full ' src="https://photowebdesigns.com/wp-content/uploads/2025/02/get-in-touch.png" alt="" />
